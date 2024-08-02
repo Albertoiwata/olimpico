@@ -1,0 +1,9 @@
+países =('China','Estados Unidos','França','Grã-Bretanha','Austrália','Japão','Coreia Do Sul',
+        'Itália', 'Holanda', 'Alemanha','Canadá','Romènia''Nova Zelàndia','Suécia','Hong-Kong','Irlanda','Croácia','Azerbaijão'
+    ,'Hungria','Georgia','Espanha','Suiça','Africa do Sul','Belgica','Cazaquistão','Guatemala')
+print('-='*20)
+print(f'Lista de Paises de medalhas Olimpíadas 2024:{países}')
+print('-='*20)
+print(f'0 a 6 primeiros  paises são{países[0:6]}')
+print(f'Os 7 Ultimos são {países[-7:]}')
+print(f'a colocação da Holanda {países.index ("Holanda")+1}posição')
